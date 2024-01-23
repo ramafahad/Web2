@@ -3,6 +3,28 @@ body{
     color: #262727;
 }
 
+.logo{
+    width:12%;
+    height: 12%;
+    margin-left: 1rem;
+}
+
+#topBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logout{
+    text-align: right;
+    margin-right: 1rem;
+    background-color: #4b4d43;
+    color:#f1efed;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    font-size: 1.37rem;
+    text-decoration: none;
+}
 
 #grid-home{
     padding:4rem;
