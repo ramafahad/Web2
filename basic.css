@@ -3,7 +3,7 @@ body{
     color: #262727;
 }
 
-#grid-home {
+/*#grid-home {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -28,6 +28,15 @@ body{
 .homeimg {
     max-width: 100%;
     height: auto;
+}*/
+
+
+#grid-home{
+    padding:8rem;
+    background-image: url("images/x.png");
+    background-clip:padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
