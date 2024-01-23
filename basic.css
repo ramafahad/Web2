@@ -3,42 +3,33 @@ body{
     color: #262727;
 }
 
-/*#grid-home {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 20px;
-    align-items: center;
-    justify-items: center;
-    padding: 20px;
-    background-color: #4b4d43;
-}
-
-.text {
-    font-size: 1.2rem;
-    text-align: left;
-    color: #f1efed;
-    padding-left: 3rem;
-}
-
-#welcome{
-    font-size: 1.95rem;
-}
-
-.homeimg {
-    max-width: 100%;
-    height: auto;
-}*/
-
 
 #grid-home{
-    padding:8rem;
-    background-image: url("images/x.png");
-    background-clip:padding-box;
+    padding:4rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background-image: url("images/backHome.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.text{
+    background-color: #f1efedcb;
+    padding: 2rem;
+    width: 35rem;
+    text-align: center;
+    font-size: 1.37rem;
+}
+
+#welcome{
+    font-size: 2.7rem;
+}
+
+#textWrapper{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
 
 footer {
     background-color: #d6d3cb;
