@@ -1,0 +1,51 @@
+body{
+    background-color: #f1efed;
+    color: #262727;
+}
+
+#grid-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    background-color: #4b4d43;
+}
+
+.text {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #f1efed;
+    padding-left: 3rem;
+}
+
+#welcome{
+    font-size: 1.95rem;
+}
+
+.homeimg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #d6d3cb;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.social-media-icons img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.1rem;
+}
+
+#email{
+    text-decoration: none;
+    color: #262727;
+}
