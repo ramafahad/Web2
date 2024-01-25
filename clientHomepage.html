@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="clientHomepage.css">
         <link rel="stylesheet" href="basic.css">
+        <script src="clientHomepage.js"></script>
         <title>sara's Home page </title>
     </head>
     <body>
@@ -38,14 +39,120 @@
             </div>
 
             <div>
-                <h1>Interior Designers</h1>
+                <h1>Designers Table</h1>
+                <div>
+                    <label for="category">Select Category:</label>
+                    <select id="category">
+                        <option value="all">All</option>
+                        <option value="modern">Modern</option>
+                        <option value="country">Country</option>
+                        <option value="traditional">Traditional</option>
+                    </select>
+                    <button id="filter">Filter</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Designer</th>
+                            <th>Specialty</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                            <a href="designer1-portfolio.html" class="logo">
+                                <img src="designer1-logo.png" alt="Designer 1 Logo">
+                            </a>
+                            <div class="brand-name">
+                                <a href="designer1-portfolio.html">Designer 1</a>
+                            </div>
+                            </td>
+                            <td class="specialty">Modern, Country</td>
+                            <td class="request-consultation">
+                            <a href="request-consultation.html">Request Design Consultation</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <a href="designer2-portfolio.html" class="logo">
+                                <img src="designer2-logo.png" alt="Designer 2 Logo">
+                            </a>
+                            <div class="brand-name">
+                                <a href="designer2-portfolio.html">Designer 2</a>
+                            </div>
+                            </td>
+                            <td class="specialty">Traditional, Country</td>
+                            <td class="request-consultation">
+                            <a href="request-consultation.html">Request Design Consultation</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <a href="designer3-portfolio.html" class="logo">
+                                <img src="designer3-logo.png" alt="Designer 3 Logo">
+                            </a>
+                            <div class="brand-name">
+                                <a href="designer3-portfolio.html">Designer 3</a>
+                            </div>
+                            </td>
+                            <td class="specialty">Modern, Traditional</td>
+                            <td class="request-consultation">
+                            <a href="request-consultation.html">Request Design Consultation</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div>
+                <table border="1">
+                    <caption>Previous Design Consultation Requests</caption>
+                    <thead>
+                      <tr>
+                        <th>Designer</th>
+                        <th>Room</th>
+                        <th>Dimensions</th>
+                        <th>Design Category</th>
+                        <th>Color Preferences</th>
+                        <th>Request Date</th>
+                        <th>Design Consultation</th>
+                      </tr>
+                    </thead>
+                  
+                    <!-- Row 1 -->
+                    <tr>
+                      <!-- Designer Logo and Brand Name -->
+                      <!-- You need to replace 'logo.png' with the actual path of designer's logo -->
+                      <!-- And 'Brand Name' with actual brand name -->
+                      <td><img src="logo.png" alt="Brand Name Logo"><br/>Brand Name</td>
+                  
+                      <!-- Room Type -->
+                      <td>Living Room</td>
+                  
+                      <!-- Room Dimensions -->
+                      <td>4x5m</td>
+                  
+                      <!-- Design Category -->
+                      <td>Modern</td>
+                  
+                       <!-- Color Preferences-->
+                       <td>Beige and Green</td>
+                  
+                       <!-- Request Date-->
+                       <td>9/1/2024</td>
+                  
+                       <!-- Status of Request-->
+                       <!--<a href='consultation.pdf'>Consultation Provided (click to view)</a>-->
+                       <!--<img src='design_image.jpg' alt='Design Image'>-->
+                       <!--<a href='#'>Consultation Declined (click for details)</a>-->
+                       <!--<p>Pending Consultation (details will be provided soon)</p>-->
+                       
+                     </tr>
+                     
+                   </table>
             </div>
 
-            <div>
-            </div>
 
             <div>
                 <h6>OUR HAPPINESS GUARANTEE</h6>

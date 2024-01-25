@@ -1,3 +1,4 @@
+/*clint infor mation*/
 .info {
    background-color: #d6d3cb;
    font-size: 16px;
@@ -26,3 +27,53 @@
    margin-left: 2rem;
    margin-right: 2rem;
 }
+/*end clint infor mation*/
+
+/*Designers Table*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .logo img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .brand-name {
+    font-weight: bold;
+  }
+
+  .specialty {
+    font-style: italic;
+  }
+
+  .request-consultation {
+    text-align: center;
+  }
+
+  .request-consultation a {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+
+  .request-consultation a:hover {
+    background-color: #3e8e41;
+  }
