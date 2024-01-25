@@ -6,6 +6,7 @@ body{
     font-family: 'Amiri', serif;
 }
 
+/*top bar*/
 .logo{
     width:12%;
     height: 12%;
@@ -16,7 +17,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #f1efed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0em 0em 2em #ccc;
+    top: 0;
+    z-index: 1000;
 }
+  
 
 #logout{
     text-align: right;
@@ -28,7 +40,9 @@ body{
     font-size: 1.37rem;
     text-decoration: none;
 }
+/*end top bar*/
 
+/*home image*/
 #grid-home{
     padding:4rem;
     padding-top: 15rem;
@@ -56,6 +70,9 @@ body{
     align-items: center;
 }
 
+/*end home image*/
+
+/*footer*/
 footer {
     background-color: #d6d3cb;
     padding-top: 1rem;
@@ -74,3 +91,4 @@ footer {
     text-decoration: none;
     color: #262727;
 }
+/*end footer*/
