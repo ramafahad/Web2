@@ -1,32 +1,67 @@
 /*clint infor mation*/
 .info {
-   background-color: #d6d3cb;
-   font-size: 16px;
-   color: #333;
-   margin-top: 20px;
-   margin-right: 10px;
-   margin-left: 10px;
-   padding-left: 20px;
-   padding-bottom: 20px;
-   border: 1px solid #ccc;
-   border-radius: 5px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f1efed;
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #888888;;
 }
-  
+
 .info h1 {
-   font-size: 24px;
+  font-size: 2.5rem;
+  background-color: #4B4D43;
+  color:#f2f2f2;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 3rem;
+  border-radius: 10px;
 }
   
 .info p {
-   margin: 5px 0;
+  margin: 5px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  
 }
 
 .p{
-   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-   margin-left: 2rem;
-   margin-right: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin-left: 9rem;
+  margin-right: 2rem;
+  position: relative;
+  bottom: 8rem;
+  margin-bottom: -8rem;
 }
+
+.info img {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+  position:relative;
+  bottom: 4.5rem;
+  left:1rem
+}
+
+.info strong {
+  font-weight: bold;
+}
+
+.preference{
+  border: 1.5px solid #ccc;
+  border-radius: 20px;
+  padding: 0.1rem;
+}
+
 /*end clint infor mation*/
 
 /*Designers Table*/
@@ -144,3 +179,5 @@ th, td {
 #happy h1{
     font-size: 1.7rem;
 }
+
+/*end HAPPINESS GUARANTEE*/
