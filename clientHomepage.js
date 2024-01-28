@@ -23,15 +23,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  var totalImages = 3; // Set the total number of images you want to include
+  var totalImages = 3; 
 
-  // Select all slider wrappers and buttons
   var sliderWrappers = document.querySelectorAll('.slider-wrapper');
   var prevButtons = document.querySelectorAll('#prevBtn');
   var nextButtons = document.querySelectorAll('#nextBtn');
   var imageWidth = document.querySelector('.designer').offsetWidth;
 
-  // Iterate over each slider
   sliderWrappers.forEach(function(sliderWrapper, index) {
     var currentIndex = 0;
 
@@ -50,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
       sliderWrapper.style.transform = 'translateX(' + newPosition + ')';
     }
 
-    // Add event listeners to slider buttons
     prevButtons[index].addEventListener('click', prevSlide);
     nextButtons[index].addEventListener('click', nextSlide);
   });

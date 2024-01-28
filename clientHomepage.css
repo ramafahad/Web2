@@ -67,20 +67,55 @@
 
 
 /*disiners grid*/
+.allDesigners{
+  background-color:#4B4D43 ;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #888888;;
+}
+
+.allDesigners h1{
+  color:#f1efed;
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom:-0.1rem;
+}
+
+.filter{
+  text-align:right;
+  color:#f1efed ;
+}
+#filter{
+  border: 1.5px solid #ccc;
+  border-radius: 20px;
+  padding: 0.1rem;
+  background-color: #f7f6f5;
+}
 .designers {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 .designer {
-  margin: 3rem;
+  background-color: #f1efed;
+  margin: 2rem;
+  text-align: center;
+  padding: 01rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/*image navgation*/
+/* Image navigation */
 .slider-container {
   position: relative;
-  width: 400px;
+  max-width: 100%; 
   overflow: hidden;
+  margin: 0 auto; 
 }
 
 .slider-wrapper {
@@ -89,7 +124,7 @@
 }
 
 .slider-container img {
-  width: 100%;
+  max-width: 100%; 
   height: auto;
 }
 
@@ -100,58 +135,124 @@
   font-size: 16px;
   padding: 10px;
   cursor: pointer;
+  background-color: rgba(243, 243, 231, 0.674);
+  border: 1.2px solid rgb(164, 164, 164);
+  border-radius: 70px;
+  color: rgb(164, 164, 164);
 }
 
 #prevBtn {
   left: 10px;
-  background-color: rgba(243, 243, 231, 0.674);
-  border-color: rgb(164, 164, 164);
-  border-width: 1.2px;
-  border-radius: 70px;
-  color: rgb(164, 164, 164);
 }
 
 #nextBtn {
   right: 10px;
-  background-color: rgba(243, 243, 231, 0.674);
-  border-color: rgb(164, 164, 164);
-  border-width: 1.2px;
-  border-radius: 70px;
-  color: rgb(164, 164, 164);
 }
 
-/*end image navgation*/
+/* End image navigation */
 
 .profile-pic {
   width: 80px;
-  border-radius: 25px;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-bottom: -1.2rem;
 }
 
-.designer img:first-child {
-  width: 400px;
-}
 
-.designer p {
- margin-top: -10px; 
-}
-
-.request-consultation a {
-  text-decoration: none;
-  border-radius: 5px;
+.designer h2 {
+  margin-top: 10px; 
 }
 
 .designer a {
-  text-decoration: none;
-  color: #F1EFED; /* Changed color */
-  background-color: #493133; /* Changed color */
-  padding: 8px 16px;
-  border-radius: 5px;
+  color:#262727;
+  text-decoration: none; 
 }
 
-.designer a:hover {
+.designer p.specialty {
+  margin-top: -10px;
+}
+
+a.consult{
+  text-decoration: none;
+  color: #F1EFED;
+  background-color: #493133;
+  padding: 8px 16px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px; 
+}
+
+a.consult:hover {
   background-color: #45434D;
 }
 /*end disiners grid*/
+
+/*Previous Design Consultation Requests*/
+.PreviousDesign{
+  background-color: #f1efed;
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #888888;;
+}
+
+div table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table caption {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #4B4D43;
+  color: #F1EFED;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+}
+
+table th {
+  background-color: #493133;
+  color: #F1EFED;
+  max-width: 200px;
+}
+
+table td {
+  background-color: #F1EFED;
+}
+
+table a {
+  text-decoration: none;
+  color: #493133;
+  font-weight: bold;
+}
+
+table img {
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.conseltationImg{
+  width:200px;
+  border-radius: 0%;
+  margin-bottom: 0px;
+}
+/*end Previous Design Consultation Requests*/
+
 
 /*HAPPINESS GUARANTEE*/
 
