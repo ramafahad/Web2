@@ -25,13 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var totalImages = 3; 
 
-  var sliderWrappers = document.querySelectorAll('.slider-wrapper');
+  var sliderContainers = document.querySelectorAll('.slider-container');
   var prevButtons = document.querySelectorAll('#prevBtn');
   var nextButtons = document.querySelectorAll('#nextBtn');
-  var imageWidth = document.querySelector('.designer').offsetWidth;
 
-  sliderWrappers.forEach(function(sliderWrapper, index) {
+  sliderContainers.forEach(function(sliderContainer, index) {
     var currentIndex = 0;
+    var imageWidth = sliderContainer.offsetWidth;
 
     function prevSlide() {
       currentIndex = (currentIndex - 1 + totalImages) % totalImages;
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateSlider() {
       var newPosition = -currentIndex * imageWidth + 'px';
-      sliderWrapper.style.transform = 'translateX(' + newPosition + ')';
+      sliderContainer.querySelector('.slider-wrapper').style.transform = 'translateX(' + newPosition + ')';
     }
 
     prevButtons[index].addEventListener('click', prevSlide);
