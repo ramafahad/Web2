@@ -12,6 +12,10 @@ body{
     margin-top: 8%;
 }
 
+.design:hover{
+  box-shadow: 0 12px 16px 0 rgba(149, 148, 148, 0.24), 0 17px 50px 0 rgba(149, 148, 148, 0.24);
+  transition-duration: 0.55s;
+}
 
 /* designer Information */
 .info {
@@ -187,6 +191,154 @@ th, td {
  }
 
 
+ /* wareefs code */
+
+ /*disiners grid*/
+.allDesigners{
+   background-color:#4B4D43 ;
+   margin-top: 20px;
+   margin-right: 10px;
+   margin-left: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 6px #888888;;
+ }
+ 
+ .allDesigns h1{
+   color:#f1efed;
+   text-align: center;
+   padding-top: 1rem;
+   margin-bottom:-0.1rem;
+ }
+ 
+ .designs {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+ }
+ 
+ .design {
+   background-color: #f1efed;
+   margin: 2rem;
+   text-align: center;
+   padding: 01rem;
+   border-radius: 15px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Image navigation */
+ .slider-container {
+   position: relative;
+   max-width: 100%; 
+   overflow: hidden;
+   margin: 0 auto; 
+ }
+ 
+ .slider-wrapper {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+ }
+ 
+ .slider-container img {
+   max-width: 100%; 
+   height: auto;
+ }
+ 
+ .slider-container button {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 16px;
+   padding: 10px;
+   cursor: pointer;
+   background-color: rgba(243, 243, 231, 0.674);
+   border: 1.2px solid rgb(164, 164, 164);
+   border-radius: 70px;
+   color: rgb(164, 164, 164);
+ }
+ 
+ #prevBtn {
+   left: 10px;
+ }
+ 
+ #nextBtn {
+   right: 10px;
+ }
+ 
+ /* End image navigation */
+
+
+ .profile-pic {
+   width: 80px;
+   border-radius: 50%;
+   margin-top: 0.5rem;
+   margin-bottom: -1.2rem;
+ }
+ 
+ 
+ .design h2 {
+   margin-top: 10px; 
+ }
+ 
+ .design a {
+   color:#262727;
+   text-decoration: none; 
+ }
+ 
+ .design p.specialty {
+   margin-top: -10px;
+ }
  
 
+ .consult {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+ }
+
+ a.consult{
+   text-decoration: none;
+   color: #F1EFED;
+   background-color: #493133;
+   padding: 8px 16px;
+   border-radius: 5px;
+   display: inline-block;
+   margin-top: 10px; 
+   width: 25%;
+ }
  
+ a.consult:hover {
+   background-color: #231718;
+ }
+ /*end disiners grid*/
+ 
+ 
+
+
+ /* harakat helwa */
+
+ .hidden{
+  opacity: 0;
+  transition: all 1s;
+ }
+ .show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+ }
+
+ .design:nth-child(2) {
+  transition-delay: 200ms;
+ }
+ .design:nth-child(3) {
+  transition-delay: 400ms;
+ }
+ .design:nth-child(5) {
+  transition-delay: 200ms;
+ }
+ .design:nth-child(6) {
+  transition-delay: 400ms;
+ }
+
+
