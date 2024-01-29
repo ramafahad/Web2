@@ -40,6 +40,12 @@ body{
     font-size: 1.37rem;
     text-decoration: none;
 }
+
+#logout:hover{
+    text-decoration: none;
+    color: #2d1e1f;
+    transition: 0.3s; 
+}
 /*end top bar*/
 
 /*home image*/
