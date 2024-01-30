@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="logIn.css">
+        <title> Log in </title>
+    </head>
+    <body>
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+          
+              <!-- Icon -->
+                <div class="fadeIn first">
+                    <img src="images/lightBeigeLogo.png" id="icon" alt="User Icon" />
+                </div>
+
+
+                <div class="fadeIn second">
+                    <form name="logInForm" action="" method="post" class="form">
+                        <fieldset>
+
+                        <legend><h1>Log in</h1></legend>
+                        <h2> Account info:</h2> <br> 
+                        <div class="input">
+                            <input type="email" id="email" class="input-field" required/>
+                            <label for="email" class="input-label">Email</label>
+                        </div>
+
+                        <div class="input">
+                            <input type="password" id="pass" class="input-field" required/>
+                            <label for="pass" class="input-label">Password</label>
+                        </div>
+                        <br>
+
+
+                            <h2>User type:</h2> 
+                            <div class="container">
+                                    <label>
+                                        <input type="radio" name="type" value="designer"/>
+                                        <span>Designer</span>
+                                    </label> 
+                                    <label>
+                                        <input type="radio" name="type" value="client"/>
+                                        <span>Client</span>
+                                    </label>
+                            </div>
+
+                        <input type="submit" class="fadeIn third" id="button" value="Log in">
+                    </fieldset>
+                    </form>
+                </div>
+
+                    
+                    
+          
+
+              <!-- Remind Passowrd -->
+                <div id="formFooter">
+                    Don't have an account? <a class="underlineHover" href="signUp.html">Sign up</a>
+                </div>
+          
+            </div>
+          </div>
+
+        
+    </body>
+</html>
