@@ -382,7 +382,7 @@ a {
 
 .pill-label:hover {
   cursor: pointer;
-  transition: ease-in 0.1s;
+  transition: background-color 0.2s;
   background-color: rgba(79, 104, 83, 0.506);
   color: rgb(240,238,236);
 }
