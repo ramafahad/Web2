@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="logIn.css">
+        <script src="logIn.js"></script>
+
         <title> Log in </title>
     </head>
     <body>
@@ -12,12 +14,14 @@
           
               <!-- Icon -->
                 <div class="fadeIn first">
-                    <img src="images/lightBeigeLogo.png" id="icon" alt="User Icon" />
+                    <a href="index.html">
+                        <img src="images/lightBeigeLogo.png" id="icon" alt="User Icon" />
+                    </a>
                 </div>
 
 
                 <div class="fadeIn second">
-                    <form name="logInForm" action="" method="post" class="form">
+                    <form name="logInForm" action="" method="post" class="form" id="logIn">
                         <fieldset>
 
                         <legend><h1>Log in</h1></legend>
@@ -37,16 +41,16 @@
                             <h2>User type:</h2> 
                             <div class="container">
                                     <label>
-                                        <input type="radio" name="type" value="designer"/>
+                                        <input type="radio" name="type" value="designer" id="designer"/>
                                         <span>Designer</span>
                                     </label> 
                                     <label>
-                                        <input type="radio" name="type" value="client"/>
+                                        <input type="radio" name="type" value="client" id="client"/>
                                         <span>Client</span>
                                     </label>
                             </div>
 
-                        <input type="submit" class="fadeIn third" id="button" value="Log in">
+                        <input type="submit" class="fadeIn third" id="button" value="Log in" onclick=" checkuser()">
                     </fieldset>
                     </form>
                 </div>
